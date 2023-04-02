@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(177, 214, 202);
+
+}
+
+
+.row .label{
+    flex: 0 0 auto;
+}
+
+.row .container{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+
+}
+
+.row .course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row .AI{
+    background-color: red;
+}
+.row .ML{
+    background-color: blue;
+}
+
+.row .DSA{
+    background-color: blueviolet;
+}

@@ -1,0 +1,19 @@
+.box{
+    display: flex;
+    background-color: rgb(124, 151, 142);
+    border-radius: 6px;
+    margin: 2px;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* 
+.flex-container{
+    display: flex;
+    background-color: rgb(75, 13, 13);
+    padding:2px;
+    border-radius: 4px;
+    justify-content: center;
+} */
