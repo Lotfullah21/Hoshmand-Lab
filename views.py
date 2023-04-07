@@ -1,5 +1,3 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-
-def handler404(request, exception):
-    return HttpResponse("<h1>Error 404, the page is not found</h1>")
+# Create your views here.
